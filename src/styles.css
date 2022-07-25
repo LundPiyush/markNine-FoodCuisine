@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.genre {
+  margin: 2rem;
+  background-color: blue;
+  color: white;
+  border-top-right-radius: 4px;
+  padding: 8px 18px;
+  cursor: pointer;
+}
+
+.cuisine {
+  padding: "1rem";
+  font-size: "1.5rem";
+  cursor: "pointer";
+  display: "inline-block";
+  border: "solid 1px black";
+  margin: "1rem";
+}
+
+.lists {
+  list-style: none;
+  padding-inline-start: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 80%;
+}
+
+img {
+  height: 150px;
+  width: 20%;
+}
+
+.list-item {
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+  background: #fefefe;
+  border-radius: 0.2rem;
+  border: 1px solid #aaaaaa;
+  box-shadow: 2px 3px #aaaaaa;
+
+  /**
+  box-shadow: none|h-offset(req) v-offset(req) blur spread color |inset|initial|inherit;
+  box-shadow: h-offset v-offset color(optional);
+   h-offset => horizontal offset of the shadow. A positive value puts the shadow on the right side of the box, a negative value puts the shadow on the left side of the box
+    v-offset => The vertical offset of the shadow. A positive value puts the shadow below the box, a negative value puts the shadow above the box.
+   **/
+}
+
+.ingredients {
+  text-align: left;
+  font-weight: bold;
+}
